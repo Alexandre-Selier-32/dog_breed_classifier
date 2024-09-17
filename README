@@ -1,0 +1,17 @@
+This Computer Vision project uses convolutional neural networks to predict
+dog breeds.
+
+A home-trained model and two Transfer Learning models are compared.
+
+I'm using the Stanford Dogs Dataset:
+
+http://vision.stanford.edu/aditya86/ImageNetDogs/
+
+The "V30" notebook showcases my best-performing home-trained model. Focusing on
+10 dog breeds, it reaches a 0.46 test accuracy rate. It was fully trained on
+Colab.
+
+The "V57" notebook compares an older and a newer pretrained models, both used
+with Transfer Learning: ResNet-50 and ConvNeXt Base. The additional training
+is still done on Colab. This time we predict all 120 dog breeds. ResNet-50
+reaches 0.50 test accuracy rate, while ConvNeXt Base achieves 0.90.
